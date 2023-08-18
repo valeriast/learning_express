@@ -2,7 +2,7 @@ const express = require('express');
 
 const server = express();
 
-const cursos = ['Node js', 'Javascript', 'React']
+const cursos = ['Node js', 'Javascript', 'React js']
 
 
 server.get('/curso/:index', (req, res) => {
